@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-import L_ACCENTURE from "../../assets/img/experience/accenture-3.svg";
 import L_SHATTAK from "../../assets/img/experience/shattak.jpg";
 import L_INTREPID from "../../assets/img/experience/intrepid.png";
 import Tilt from "react-tilt";
@@ -29,12 +28,12 @@ const Experience = () => {
                     <br />
                     <strong>Technology:</strong> React JS, Nodejs, MongoDB, Cloud (AWS)
                     <br />
-                    <strong>Duration:</strong> December 2020 - Present
+                    <strong>Duration:</strong> December 2020 - March 2021
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
                       <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
-                      <li><strong>Designed and Co-created</strong> the Cloud (AWS) Architecture
+                      <li><strong>Designed and Co-created</strong> the various Components of Website
                       </li>
                       <li><strong>Co-designed</strong>  the UI/UX of the website
                       </li>
@@ -66,7 +65,7 @@ const Experience = () => {
                     <br /> */}
                     {/* <strong>Technologies Mentored at:</strong> React JS, Nodejs, MongoDB, Cloud (AWS)
                     <br /> */}
-                    <strong>Duration:</strong> November 2020 - Present
+                    <strong>Duration:</strong> November 2020 - January 2021
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
