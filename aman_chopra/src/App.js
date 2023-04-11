@@ -21,7 +21,6 @@ function App() {
         <Route exact path="projects" element={<Project />} />
         <Route exact path="work" element={<Work />} />
         <Route exact path="contact" element={<Contact />} />
-        <Route exact path="contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>

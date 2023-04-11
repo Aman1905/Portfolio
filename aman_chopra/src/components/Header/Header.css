@@ -81,7 +81,7 @@
 
     .nav__close {
         position: absolute;
-        right: 1.3rem;
+        right: 1.5rem;
         bottom: 0.5rem;
         font-size: 1.5rem;
         cursor: pointer;
@@ -95,6 +95,7 @@
     .nav__toggle {
         font-size: 1.1rem;
         cursor: pointer;
+        margin-right: 2rem;
     }
 
     .nav__icon, .nav__close, .nav__toggle {

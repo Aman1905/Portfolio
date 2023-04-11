@@ -8,39 +8,39 @@ const Header = () => {
       <>
         <header className='header'>
           <nav className='nav container'>
-            <a href='index.html' className='nav__logo'>Aman Chopra</a>
+            <NavLink to='/' className='nav__logo'>Aman Chopra</NavLink>
 
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
               <ul className='nav__list grid'>
                 <li className='nav__item'>
-                  <a href='#' className='nav__link active-link'>
+                  <NavLink to='/' className='nav__link active-link'>
                     <i className='uil uil-estate nav__icon'></i>Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li className='nav__item'>
-                  <a href='#' className='nav__link'>
-                    <i className='uil uil-briefcase-alt nav__icon'></i>Work
-                  </a>
+                  <NavLink to='/work' className='nav__link'>
+                  <i className='uil uil-briefcase-alt nav__icon'></i>Work
+                  </NavLink>
                 </li>
                 <li className='nav__item'>
-                  <a href='#' className='nav__link'>
+                  <NavLink to='/projects' className='nav__link'>
                     <i className='uil uil-scenery nav__icon'></i>Projects
-                  </a>
+                  </NavLink>
                 </li>
                 <li className='nav__item'>
-                  <a href='#' className='nav__link'>
+                  <NavLink to='/blogs' className='nav__link'>
                     <i className='uil uil-file-alt nav__icon'></i>Blogs
-                  </a>
+                  </NavLink>
                 </li>
                 <li className='nav__item'>
-                  <a href='#' className='nav__link'>
+                  <NavLink to='/community' className='nav__link'>
                     <i className='uil uil-user nav__icon'></i>Community
-                  </a>
+                  </NavLink>
                 </li>
                 <li className='nav__item'>
-                  <a href='#' className='nav__link'>
+                  <NavLink to='/contact' className='nav__link'>
                     <i className='uil uil-message nav__icon'></i>Contact
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
 
