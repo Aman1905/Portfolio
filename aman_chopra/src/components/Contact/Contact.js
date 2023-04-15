@@ -1,66 +1,34 @@
 import React from 'react'
-import styles from './Contact.module.css'
+import { NavLink } from 'react-router-dom'
+import './Contact.css'
 
 const Contact = () => {
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [message, setMessage] = useState("");
-
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
-  //   You can add your code to submit the form data here.
-  // };
-
   return (
-    // <div className={styles.myContacts}>
-    // <div className={styles.contact__container}>
-    //   <div className={styles.contact__heading}>
-    //     <h1>Let's Connect</h1>
-    //   </div>
-    //   <form className={styles.contactForm} onSubmit={handleSubmit}>
-    //     <div className={styles.form__group}>
-    //       <label className={styles.formLabel} htmlFor="name">Name:</label>
-    //       <input
-    //         className={styles.formInput}
-    //         type="text"
-    //         id="name"
-    //         name="name"
-    //         value={name}
-    //         onChange={(event) => setName(event.target.value)}
-    //         required
-    //       />
-    //     </div>
-    //     <div className={styles.form__group}>
-    //       <label className={styles.formLabel} htmlFor="email">Email:</label>
-    //       <input
-    //         className={styles.formInput}
-    //         type="email"
-    //         id="email"
-    //         name="email"
-    //         value={email}
-    //         onChange={(event) => setEmail(event.target.value)}
-    //         required
-    //       />
-    //     </div>
-    //     <div className={styles.form__group}>
-    //       <label className={styles.formLabel} htmlFor="message">Message:</label>
-    //       <textarea
-    //         className={styles.formInput}
-    //         id="message"
-    //         name="message"
-    //         value={message}
-    //         onChange={(event) => setMessage(event.target.value)}
-    //         required
-    //       />
-    //     </div>
-    //     <button type="submit">Send Message</button>
-    //   </form>
-    // </div>
-    // </div>
-    <div className={styles.myContacts}>
-      <h1>Hello World</h1>
-    </div>
+    <section className='contact section' id='contact'>
+      <h2 className='section__title'>Get in touch</h2>
+      <span className='section__subtitle'>Contact Me</span>
+
+      <div className='contact__container container grid'>
+        <div className='contact__content'>
+          <h3 className='contact__title'>Connect with Me</h3>
+
+          <div className='contact__info'>
+            <div className='contact__card'>
+              <i className='bx bx contact__card-icon'></i>
+
+              <h3 className='contact__card-title'></h3>
+              <span className='contact__card-data'></span>
+
+              <NavLink to='#' className='contact__button'>Write Me <i className='bx bx-right-arrow-alt contact__button-icon'></i> </NavLink>
+            </div>
+          </div>
+        </div>
+
+        <div className='contact__content'>
+          <h3 className='contact__title'>Write your message</h3>
+        </div>
+      </div>
+    </section>
   )
 }
 

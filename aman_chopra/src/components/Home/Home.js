@@ -1,11 +1,21 @@
 import React from 'react'
-import styles from './Home.module.css'
+import Social from './Social'
+import Data from './Data'
+import './Home.css'
 
 const Home = () => {
   return (
-    <div className={styles.home}>
-      
-    </div>
+    <section className='home section' id='home'>
+      <div className='home__container container grid'>
+        <div className='home__content grid'>
+          <Social />
+          
+          <div className='home__img'></div>
+
+          <Data />
+        </div>
+      </div>
+    </section>
   )
 }
 
